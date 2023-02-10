@@ -54,7 +54,7 @@ Image
     Image
     Image.convert_to_CAS_column
     Image.convert_wide_to_numpy
-    Image.convert_numpyt_to_wide
+    Image.convert_numpy_to_wide
     Image.fetch_geometry_info
     Image.fetch_image_array
     Image.get_image_array_from_row
