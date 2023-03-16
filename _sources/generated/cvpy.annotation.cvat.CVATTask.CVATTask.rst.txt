@@ -1,0 +1,35 @@
+﻿cvpy.annotation.cvat.CVATTask.CVATTask
+======================================
+
+.. currentmodule:: cvpy.annotation.cvat.CVATTask
+
+.. autoclass:: CVATTask
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~CVATTask.__init__
+      ~CVATTask.as_dict
+      ~CVATTask.from_dict
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~CVATTask.end_image_id
+      ~CVATTask.image_table
+      ~CVATTask.image_table_name
+      ~CVATTask.project
+      ~CVATTask.start_image_id
+      ~CVATTask.task_id
+   
+   

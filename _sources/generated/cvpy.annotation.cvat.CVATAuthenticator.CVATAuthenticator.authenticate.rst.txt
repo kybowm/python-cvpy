@@ -1,0 +1,6 @@
+﻿cvpy.annotation.cvat.CVATAuthenticator.CVATAuthenticator.authenticate
+=====================================================================
+
+.. currentmodule:: cvpy.annotation.cvat.CVATAuthenticator
+
+.. automethod:: CVATAuthenticator.authenticate

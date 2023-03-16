@@ -1,0 +1,6 @@
+﻿cvpy.annotation.cvat.CVATProject.CVATProject.from\_json
+=======================================================
+
+.. currentmodule:: cvpy.annotation.cvat.CVATProject
+
+.. automethod:: CVATProject.from_json

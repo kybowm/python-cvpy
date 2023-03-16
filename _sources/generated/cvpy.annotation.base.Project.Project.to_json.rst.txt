@@ -1,0 +1,6 @@
+﻿cvpy.annotation.base.Project.Project.to\_json
+=============================================
+
+.. currentmodule:: cvpy.annotation.base.Project
+
+.. automethod:: Project.to_json

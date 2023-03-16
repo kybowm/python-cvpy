@@ -1,0 +1,6 @@
+﻿cvpy.biomedimage.BiomedImageTable.ImageTable.as\_dict
+=====================================================
+
+.. currentmodule:: cvpy.biomedimage.BiomedImageTable
+
+.. automethod:: ImageTable.as_dict

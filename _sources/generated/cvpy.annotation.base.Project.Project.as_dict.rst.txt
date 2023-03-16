@@ -1,0 +1,6 @@
+﻿cvpy.annotation.base.Project.Project.as\_dict
+=============================================
+
+.. currentmodule:: cvpy.annotation.base.Project
+
+.. automethod:: Project.as_dict

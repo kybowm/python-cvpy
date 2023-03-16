@@ -1,0 +1,6 @@
+﻿cvpy.annotation.cvat.CVATTask.CVATTask.from\_dict
+=================================================
+
+.. currentmodule:: cvpy.annotation.cvat.CVATTask
+
+.. automethod:: CVATTask.from_dict

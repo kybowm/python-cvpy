@@ -1,0 +1,6 @@
+﻿cvpy.biomedimage.BiomedImageTable.BiomedImageTable.from\_table
+==============================================================
+
+.. currentmodule:: cvpy.biomedimage.BiomedImageTable
+
+.. automethod:: BiomedImageTable.from_table

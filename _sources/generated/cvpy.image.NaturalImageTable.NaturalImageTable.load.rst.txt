@@ -1,0 +1,6 @@
+﻿cvpy.image.NaturalImageTable.NaturalImageTable.load
+===================================================
+
+.. currentmodule:: cvpy.image.NaturalImageTable
+
+.. automethod:: NaturalImageTable.load

@@ -75,7 +75,7 @@
              
   <section id="module-cvpy">
 <span id="sas-viya-computer-vision-api-for-python"></span><h1>SAS Viya Computer Vision API for Python<a class="headerlink" href="#module-cvpy" title="Permalink to this heading">¶</a></h1>
-<p><strong>Date</strong>: Mar 06, 2023 <strong>Version</strong>: 1.1.1-dev</p>
+<p><strong>Date</strong>: Mar 16, 2023 <strong>Version</strong>: 1.1.1-dev</p>
 <p><strong>Source Repository:</strong> <a class="reference external" href="http://github.com/sassoftware/python-cvpy">http://github.com/sassoftware/python-cvpy</a></p>
 <p><strong>Issues &amp; Ideas:</strong> <a class="reference external" href="https://github.com/sassoftware/python-cvpy/issues">https://github.com/sassoftware/python-cvpy/issues</a></p>
 <p><strong>SAS Viya:</strong> <a class="reference external" href="https://support.sas.com/documentation/onlinedoc/viya/index.html">https://support.sas.com/documentation/onlinedoc/viya/index.html</a></p>
@@ -111,11 +111,16 @@ This streamlines the visualization of image data fetched from a CAS table and al
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="api.html">API Reference</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="api.html#biomedical-images">Biomedical Images</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.biomedimage.BiomedImage.BiomedImage.html">cvpy.biomedimage.BiomedImage.BiomedImage</a></li>
-<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.biomedimage.BiomedImage.BiomedImage.quantify_sphericity.html">cvpy.biomedimage.BiomedImage.BiomedImage.quantify_sphericity</a></li>
-<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.biomedimage.BiomedImage.BiomedImage.mask_image.html">cvpy.biomedimage.BiomedImage.BiomedImage.mask_image</a></li>
-<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.biomedimage.BiomedImage.BiomedImage.morphological_gradient.html">cvpy.biomedimage.BiomedImage.BiomedImage.morphological_gradient</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api.html#biomedical-image-table">Biomedical Image Table</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.biomedimage.BiomedImageTable.BiomedImageTable.html">cvpy.biomedimage.BiomedImageTable.BiomedImageTable</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.biomedimage.BiomedImageTable.ImageTable.as_dict.html">cvpy.biomedimage.BiomedImageTable.ImageTable.as_dict</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.biomedimage.BiomedImageTable.BiomedImageTable.fetch_image_array.html">cvpy.biomedimage.BiomedImageTable.BiomedImageTable.fetch_image_array</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.biomedimage.BiomedImageTable.BiomedImageTable.fetch_geometry_info.html">cvpy.biomedimage.BiomedImageTable.BiomedImageTable.fetch_geometry_info</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.biomedimage.BiomedImageTable.BiomedImageTable.from_table.html">cvpy.biomedimage.BiomedImageTable.BiomedImageTable.from_table</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.biomedimage.BiomedImageTable.ImageTable.has_decoded_images.html">cvpy.biomedimage.BiomedImageTable.ImageTable.has_decoded_images</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.biomedimage.BiomedImageTable.BiomedImageTable.load.html">cvpy.biomedimage.BiomedImageTable.BiomedImageTable.load</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.biomedimage.BiomedImageTable.BiomedImageTable.sphericity.html">cvpy.biomedimage.BiomedImageTable.BiomedImageTable.sphericity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.biomedimage.BiomedImageTable.BiomedImageTable.morphological_gradient.html">cvpy.biomedimage.BiomedImageTable.BiomedImageTable.morphological_gradient</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="api.html#cas-thread-tuner">CAS Thread Tuner</a><ul>
@@ -128,23 +133,31 @@ This streamlines the visualization of image data fetched from a CAS table and al
 <li class="toctree-l3"><a class="reference internal" href="generated/cvpy.base.CASThreadTunerResults.CASThreadTunerResults.plot_exec_times.html">cvpy.base.CASThreadTunerResults.CASThreadTunerResults.plot_exec_times</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="api.html#image">Image</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.image.Image.Image.html">cvpy.image.Image.Image</a></li>
-<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.image.Image.Image.convert_to_CAS_column.html">cvpy.image.Image.Image.convert_to_CAS_column</a></li>
-<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.image.Image.Image.convert_wide_to_numpy.html">cvpy.image.Image.Image.convert_wide_to_numpy</a></li>
-<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.image.Image.Image.convert_numpy_to_wide.html">cvpy.image.Image.Image.convert_numpy_to_wide</a></li>
-<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.image.Image.Image.fetch_geometry_info.html">cvpy.image.Image.Image.fetch_geometry_info</a></li>
-<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.image.Image.Image.fetch_image_array.html">cvpy.image.Image.Image.fetch_image_array</a></li>
-<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.image.Image.Image.get_image_array_from_row.html">cvpy.image.Image.Image.get_image_array_from_row</a></li>
-<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.image.Image.Image.get_image_array.html">cvpy.image.Image.Image.get_image_array</a></li>
-<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.image.Image.Image.get_image_array_const_ctype.html">cvpy.image.Image.Image.get_image_array_const_ctype</a></li>
-<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.image.Image.Image.mask_image.html">cvpy.image.Image.Image.mask_image</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="api.html#imagetable">ImageTable</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api.html#image-table">Image Table</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="generated/cvpy.base.ImageTable.ImageTable.html">cvpy.base.ImageTable.ImageTable</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/cvpy.base.ImageTable.ImageTable.as_dict.html">cvpy.base.ImageTable.ImageTable.as_dict</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/cvpy.base.ImageTable.ImageTable.has_decoded_images.html">cvpy.base.ImageTable.ImageTable.has_decoded_images</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.base.ImageTable.ImageTable.load.html">cvpy.base.ImageTable.ImageTable.load</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.base.ImageTable.ImageTable.from_table.html">cvpy.base.ImageTable.ImageTable.from_table</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api.html#image-utilities">Image Utilities</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.utils.ImageUtils.ImageUtils.html">cvpy.utils.ImageUtils.ImageUtils</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.utils.ImageUtils.ImageUtils.convert_numpy_to_wide.html">cvpy.utils.ImageUtils.ImageUtils.convert_numpy_to_wide</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.utils.ImageUtils.ImageUtils.convert_to_CAS_column.html">cvpy.utils.ImageUtils.ImageUtils.convert_to_CAS_column</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.utils.ImageUtils.ImageUtils.convert_wide_to_numpy.html">cvpy.utils.ImageUtils.ImageUtils.convert_wide_to_numpy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.utils.ImageUtils.ImageUtils.get_image_array.html">cvpy.utils.ImageUtils.ImageUtils.get_image_array</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.utils.ImageUtils.ImageUtils.get_image_array_const_ctype.html">cvpy.utils.ImageUtils.ImageUtils.get_image_array_const_ctype</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.utils.ImageUtils.ImageUtils.get_image_array_from_row.html">cvpy.utils.ImageUtils.ImageUtils.get_image_array_from_row</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api.html#natural-image-table">Natural Image Table</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.image.NaturalImageTable.NaturalImageTable.html">cvpy.image.NaturalImageTable.NaturalImageTable</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.image.NaturalImageTable.NaturalImageTable.as_dict.html">cvpy.image.NaturalImageTable.NaturalImageTable.as_dict</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.image.NaturalImageTable.NaturalImageTable.has_decoded_images.html">cvpy.image.NaturalImageTable.NaturalImageTable.has_decoded_images</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.image.NaturalImageTable.NaturalImageTable.from_table.html">cvpy.image.NaturalImageTable.NaturalImageTable.from_table</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.image.NaturalImageTable.NaturalImageTable.load.html">cvpy.image.NaturalImageTable.NaturalImageTable.load</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/cvpy.image.NaturalImageTable.NaturalImageTable.mask_image.html">cvpy.image.NaturalImageTable.NaturalImageTable.mask_image</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="api.html#visualization-reference">Visualization Reference</a><ul>
@@ -152,6 +165,12 @@ This streamlines the visualization of image data fetched from a CAS table and al
 <li class="toctree-l3"><a class="reference internal" href="generated/cvpy.visualization.display_3D_image_slices_from_array.html">cvpy.visualization.display_3D_image_slices_from_array</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/cvpy.visualization.display_3D_image_slices.html">cvpy.visualization.display_3D_image_slices</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/cvpy.visualization.display_3D_surface.html">cvpy.visualization.display_3D_surface</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api.html#annotations">Annotations</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api.html#projects">Projects</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api.html#tasks">Tasks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api.html#authentication">Authentication</a></li>
 </ul>
 </li>
 </ul>
