@@ -18,7 +18,7 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="cvpy.biomedimage.BiomedImageTable.ImageTable.as_dict" href="cvpy.biomedimage.BiomedImageTable.ImageTable.as_dict.html" />
+    <link rel="next" title="cvpy.biomedimage.BiomedImageTable.BiomedImageTable.as_dict" href="cvpy.biomedimage.BiomedImageTable.BiomedImageTable.as_dict.html" />
     <link rel="prev" title="cvpy.annotation.cvat.CVATAuthenticator.CVATAuthenticator.generate_cvat_token" href="cvpy.annotation.cvat.CVATAuthenticator.CVATAuthenticator.generate_cvat_token.html" /> 
 </head>
 
@@ -51,12 +51,10 @@
 <li class="toctree-l2 current"><a class="reference internal" href="../api.html#tables">Tables</a><ul class="current">
 <li class="toctree-l3 current"><a class="reference internal" href="../api.html#biomedical-image-table">Biomedical Image Table</a><ul class="current">
 <li class="toctree-l4 current"><a class="current reference internal" href="#">cvpy.biomedimage.BiomedImageTable.BiomedImageTable</a></li>
-<li class="toctree-l4"><a class="reference internal" href="cvpy.biomedimage.BiomedImageTable.ImageTable.as_dict.html">cvpy.biomedimage.BiomedImageTable.ImageTable.as_dict</a></li>
+<li class="toctree-l4"><a class="reference internal" href="cvpy.biomedimage.BiomedImageTable.BiomedImageTable.as_dict.html">cvpy.biomedimage.BiomedImageTable.BiomedImageTable.as_dict</a></li>
 <li class="toctree-l4"><a class="reference internal" href="cvpy.biomedimage.BiomedImageTable.BiomedImageTable.fetch_image_array.html">cvpy.biomedimage.BiomedImageTable.BiomedImageTable.fetch_image_array</a></li>
 <li class="toctree-l4"><a class="reference internal" href="cvpy.biomedimage.BiomedImageTable.BiomedImageTable.fetch_geometry_info.html">cvpy.biomedimage.BiomedImageTable.BiomedImageTable.fetch_geometry_info</a></li>
-<li class="toctree-l4"><a class="reference internal" href="cvpy.biomedimage.BiomedImageTable.BiomedImageTable.from_table.html">cvpy.biomedimage.BiomedImageTable.BiomedImageTable.from_table</a></li>
-<li class="toctree-l4"><a class="reference internal" href="cvpy.biomedimage.BiomedImageTable.ImageTable.has_decoded_images.html">cvpy.biomedimage.BiomedImageTable.ImageTable.has_decoded_images</a></li>
-<li class="toctree-l4"><a class="reference internal" href="cvpy.biomedimage.BiomedImageTable.BiomedImageTable.load.html">cvpy.biomedimage.BiomedImageTable.BiomedImageTable.load</a></li>
+<li class="toctree-l4"><a class="reference internal" href="cvpy.biomedimage.BiomedImageTable.BiomedImageTable.has_decoded_images.html">cvpy.biomedimage.BiomedImageTable.BiomedImageTable.has_decoded_images</a></li>
 <li class="toctree-l4"><a class="reference internal" href="cvpy.biomedimage.BiomedImageTable.BiomedImageTable.sphericity.html">cvpy.biomedimage.BiomedImageTable.BiomedImageTable.sphericity</a></li>
 <li class="toctree-l4"><a class="reference internal" href="cvpy.biomedimage.BiomedImageTable.BiomedImageTable.morphological_gradient.html">cvpy.biomedimage.BiomedImageTable.BiomedImageTable.morphological_gradient</a></li>
 </ul>
@@ -145,7 +143,7 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="#cvpy.biomedimage.BiomedImageTable.BiomedImageTable.__init__" title="cvpy.biomedimage.BiomedImageTable.BiomedImageTable.__init__"><strong>__init__</strong></a>([table, image, dimension, ...])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><strong>as_dict</strong>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="cvpy.biomedimage.BiomedImageTable.BiomedImageTable.as_dict.html#cvpy.biomedimage.BiomedImageTable.BiomedImageTable.as_dict" title="cvpy.biomedimage.BiomedImageTable.BiomedImageTable.as_dict"><strong>as_dict</strong></a>()</p></td>
 <td><p>Create a dictionary representation of this object.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="cvpy.biomedimage.BiomedImageTable.BiomedImageTable.fetch_geometry_info.html#cvpy.biomedimage.BiomedImageTable.BiomedImageTable.fetch_geometry_info" title="cvpy.biomedimage.BiomedImageTable.BiomedImageTable.fetch_geometry_info"><strong>fetch_geometry_info</strong></a>([n, qry, posCol, ...])</p></td>
@@ -154,13 +152,13 @@
 <tr class="row-even"><td><p><a class="reference internal" href="cvpy.biomedimage.BiomedImageTable.BiomedImageTable.fetch_image_array.html#cvpy.biomedimage.BiomedImageTable.BiomedImageTable.fetch_image_array" title="cvpy.biomedimage.BiomedImageTable.BiomedImageTable.fetch_image_array"><strong>fetch_image_array</strong></a>([n, qry, image, dim, res, ...])</p></td>
 <td><p>Fetch image array from this BiomedImageTable.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="cvpy.biomedimage.BiomedImageTable.BiomedImageTable.from_table.html#cvpy.biomedimage.BiomedImageTable.BiomedImageTable.from_table" title="cvpy.biomedimage.BiomedImageTable.BiomedImageTable.from_table"><strong>from_table</strong></a>(cas_table[, image_type, image, ...])</p></td>
+<tr class="row-odd"><td><p><strong>from_table</strong>(cas_table[, image_type, image, ...])</p></td>
 <td><p>Creates an ImageTable from a CASTable.</p></td>
 </tr>
-<tr class="row-even"><td><p><strong>has_decoded_images</strong>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="cvpy.biomedimage.BiomedImageTable.BiomedImageTable.has_decoded_images.html#cvpy.biomedimage.BiomedImageTable.BiomedImageTable.has_decoded_images" title="cvpy.biomedimage.BiomedImageTable.BiomedImageTable.has_decoded_images"><strong>has_decoded_images</strong></a>()</p></td>
 <td><p>Check if this table contains decoded images or encoded images.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="cvpy.biomedimage.BiomedImageTable.BiomedImageTable.load.html#cvpy.biomedimage.BiomedImageTable.BiomedImageTable.load" title="cvpy.biomedimage.BiomedImageTable.BiomedImageTable.load"><strong>load</strong></a>(connection, path[, load_parms, ...])</p></td>
+<tr class="row-odd"><td><p><strong>load</strong>(connection, path[, load_parms, ...])</p></td>
 <td><p>Loads images in an ImageTable.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="cvpy.biomedimage.BiomedImageTable.BiomedImageTable.morphological_gradient.html#cvpy.biomedimage.BiomedImageTable.BiomedImageTable.morphological_gradient" title="cvpy.biomedimage.BiomedImageTable.BiomedImageTable.morphological_gradient"><strong>morphological_gradient</strong></a>([kernel_width, ...])</p></td>
@@ -266,7 +264,7 @@
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="cvpy.annotation.cvat.CVATAuthenticator.CVATAuthenticator.generate_cvat_token.html" class="btn btn-neutral float-left" title="cvpy.annotation.cvat.CVATAuthenticator.CVATAuthenticator.generate_cvat_token" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="cvpy.biomedimage.BiomedImageTable.ImageTable.as_dict.html" class="btn btn-neutral float-right" title="cvpy.biomedimage.BiomedImageTable.ImageTable.as_dict" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="cvpy.biomedimage.BiomedImageTable.BiomedImageTable.as_dict.html" class="btn btn-neutral float-right" title="cvpy.biomedimage.BiomedImageTable.BiomedImageTable.as_dict" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

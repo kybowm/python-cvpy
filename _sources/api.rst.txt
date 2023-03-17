@@ -22,22 +22,6 @@ Credentials
 
     Credentials
 
-Project
--------
-
-.. currentmodule:: cvpy.annotation.base.Project
-
-.. autosummary::
-    :toctree: generated/
-
-    Project
-    Project.as_dict
-    Project.get_annotations
-    Project.post_images
-    Project.resume
-    Project.save
-    Project.to_json
-
 CVAT
 ====
 
@@ -52,24 +36,10 @@ CVAT Project
     :toctree: generated/
 
     CVATProject
-    CVATProject.as_dict
-    CVATProject.from_json
     CVATProject.get_annotations
     CVATProject.post_images
     CVATProject.save
     CVATProject.resume
-    CVATProject.to_json
-
-CVAT Task
----------
-
-.. currentmodule:: cvpy.annotation.cvat.CVATTask
-
-.. autosummary::
-    :toctree: generated/
-
-    CVATTask
-    CVATTask.from_dict
 
 CVAT Authentication
 -------------------
@@ -80,7 +50,6 @@ CVAT Authentication
     :toctree: generated/
 
     CVATAuthenticator
-    CVATAuthenticator.authenticate
     CVATAuthenticator.generate_cvat_token
 
 ******
@@ -96,12 +65,10 @@ Biomedical Image Table
     :toctree: generated/
 
     BiomedImageTable
-    ImageTable.as_dict
+    BiomedImageTable.as_dict
     BiomedImageTable.fetch_image_array
     BiomedImageTable.fetch_geometry_info
-    BiomedImageTable.from_table
-    ImageTable.has_decoded_images
-    BiomedImageTable.load
+    BiomedImageTable.has_decoded_images
     BiomedImageTable.sphericity
     BiomedImageTable.morphological_gradient
 
@@ -130,8 +97,6 @@ Natural Image Table
     NaturalImageTable
     NaturalImageTable.as_dict
     NaturalImageTable.has_decoded_images
-    NaturalImageTable.from_table
-    NaturalImageTable.load
     NaturalImageTable.mask_image
 
 *********
