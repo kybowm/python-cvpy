@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>API Reference &mdash; CVPy 1.1.1-dev documentation</title>
+  <title>API Reference &mdash; CVPy 1.1.2-dev documentation</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="_static/theme.css" type="text/css" />
@@ -12,9 +12,9 @@
     <script src="_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-        <script src="_static/doctools.js"></script>
-        <script src="_static/sphinx_highlight.js"></script>
+        <script src="_static/documentation_options.js?v=b2c72378"></script>
+        <script src="_static/doctools.js?v=888ff710"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -34,7 +34,7 @@
             CVPy
           </a>
               <div class="version">
-                1.1.1-dev
+                1.1.2-dev
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -147,13 +147,13 @@
            <div itemprop="articleBody">
              
   <section id="api-reference">
-<h1>API Reference<a class="headerlink" href="#api-reference" title="Permalink to this heading">¶</a></h1>
+<h1>API Reference<a class="headerlink" href="#api-reference" title="Link to this heading">¶</a></h1>
 <section id="annotation">
-<h2>Annotation<a class="headerlink" href="#annotation" title="Permalink to this heading">¶</a></h2>
+<h2>Annotation<a class="headerlink" href="#annotation" title="Link to this heading">¶</a></h2>
 <section id="base">
-<h3>Base<a class="headerlink" href="#base" title="Permalink to this heading">¶</a></h3>
+<h3>Base<a class="headerlink" href="#base" title="Link to this heading">¶</a></h3>
 <section id="credentials">
-<h4>Credentials<a class="headerlink" href="#credentials" title="Permalink to this heading">¶</a></h4>
+<h4>Credentials<a class="headerlink" href="#credentials" title="Link to this heading">¶</a></h4>
 <table class="autosummary longtable docutils align-default">
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/cvpy.annotation.base.Credentials.Credentials.html#cvpy.annotation.base.Credentials.Credentials" title="cvpy.annotation.base.Credentials.Credentials"><strong>Credentials</strong></a>([username, password, token, ...])</p></td>
@@ -164,9 +164,9 @@
 </section>
 </section>
 <section id="cvat">
-<h3>CVAT<a class="headerlink" href="#cvat" title="Permalink to this heading">¶</a></h3>
+<h3>CVAT<a class="headerlink" href="#cvat" title="Link to this heading">¶</a></h3>
 <section id="cvat-project">
-<h4>CVAT Project<a class="headerlink" href="#cvat-project" title="Permalink to this heading">¶</a></h4>
+<h4>CVAT Project<a class="headerlink" href="#cvat-project" title="Link to this heading">¶</a></h4>
 <table class="autosummary longtable docutils align-default">
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/cvpy.annotation.cvat.CVATProject.CVATProject.html#cvpy.annotation.cvat.CVATProject.CVATProject" title="cvpy.annotation.cvat.CVATProject.CVATProject"><strong>CVATProject</strong></a>([cas_connection, url, ...])</p></td>
@@ -181,14 +181,14 @@
 <tr class="row-even"><td><p><a class="reference internal" href="generated/cvpy.annotation.cvat.CVATProject.CVATProject.save.html#cvpy.annotation.cvat.CVATProject.CVATProject.save" title="cvpy.annotation.cvat.CVATProject.CVATProject.save"><strong>CVATProject.save</strong></a>([caslib, relative_path, ...])</p></td>
 <td><p>Saves a CVATProject in the specified caslib and relative path.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/cvpy.annotation.cvat.CVATProject.CVATProject.resume.html#cvpy.annotation.cvat.CVATProject.CVATProject.resume" title="cvpy.annotation.cvat.CVATProject.CVATProject.resume"><strong>CVATProject.resume</strong></a>(project_name, ...)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/cvpy.annotation.cvat.CVATProject.CVATProject.resume.html#cvpy.annotation.cvat.CVATProject.CVATProject.resume" title="cvpy.annotation.cvat.CVATProject.CVATProject.resume"><strong>CVATProject.resume</strong></a>(project_name, cas_connection)</p></td>
 <td><p>Resumes a CVATProject by reading it from the specified caslib and relative path.</p></td>
 </tr>
 </tbody>
 </table>
 </section>
 <section id="cvat-authentication">
-<h4>CVAT Authentication<a class="headerlink" href="#cvat-authentication" title="Permalink to this heading">¶</a></h4>
+<h4>CVAT Authentication<a class="headerlink" href="#cvat-authentication" title="Link to this heading">¶</a></h4>
 <table class="autosummary longtable docutils align-default">
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/cvpy.annotation.cvat.CVATAuthenticator.CVATAuthenticator.html#cvpy.annotation.cvat.CVATAuthenticator.CVATAuthenticator" title="cvpy.annotation.cvat.CVATAuthenticator.CVATAuthenticator"><strong>CVATAuthenticator</strong></a>()</p></td>
@@ -203,9 +203,9 @@
 </section>
 </section>
 <section id="tables">
-<h2>Tables<a class="headerlink" href="#tables" title="Permalink to this heading">¶</a></h2>
+<h2>Tables<a class="headerlink" href="#tables" title="Link to this heading">¶</a></h2>
 <section id="biomedical-image-table">
-<h3>Biomedical Image Table<a class="headerlink" href="#biomedical-image-table" title="Permalink to this heading">¶</a></h3>
+<h3>Biomedical Image Table<a class="headerlink" href="#biomedical-image-table" title="Link to this heading">¶</a></h3>
 <table class="autosummary longtable docutils align-default">
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/cvpy.biomedimage.BiomedImageTable.BiomedImageTable.html#cvpy.biomedimage.BiomedImageTable.BiomedImageTable" title="cvpy.biomedimage.BiomedImageTable.BiomedImageTable"><strong>BiomedImageTable</strong></a>([table, image, dimension, ...])</p></td>
@@ -233,7 +233,7 @@
 </table>
 </section>
 <section id="image-table">
-<h3>Image Table<a class="headerlink" href="#image-table" title="Permalink to this heading">¶</a></h3>
+<h3>Image Table<a class="headerlink" href="#image-table" title="Link to this heading">¶</a></h3>
 <table class="autosummary longtable docutils align-default">
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/cvpy.base.ImageTable.ImageTable.html#cvpy.base.ImageTable.ImageTable" title="cvpy.base.ImageTable.ImageTable"><strong>ImageTable</strong></a>(table[, image, dimension, ...])</p></td>
@@ -255,7 +255,7 @@
 </table>
 </section>
 <section id="natural-image-table">
-<h3>Natural Image Table<a class="headerlink" href="#natural-image-table" title="Permalink to this heading">¶</a></h3>
+<h3>Natural Image Table<a class="headerlink" href="#natural-image-table" title="Link to this heading">¶</a></h3>
 <table class="autosummary longtable docutils align-default">
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/cvpy.image.NaturalImageTable.NaturalImageTable.html#cvpy.image.NaturalImageTable.NaturalImageTable" title="cvpy.image.NaturalImageTable.NaturalImageTable"><strong>NaturalImageTable</strong></a>([table, image, dimension, ...])</p></td>
@@ -275,9 +275,9 @@
 </section>
 </section>
 <section id="utilities">
-<h2>Utilities<a class="headerlink" href="#utilities" title="Permalink to this heading">¶</a></h2>
+<h2>Utilities<a class="headerlink" href="#utilities" title="Link to this heading">¶</a></h2>
 <section id="cas-thread-tuner">
-<h3>CAS Thread Tuner<a class="headerlink" href="#cas-thread-tuner" title="Permalink to this heading">¶</a></h3>
+<h3>CAS Thread Tuner<a class="headerlink" href="#cas-thread-tuner" title="Link to this heading">¶</a></h3>
 <table class="autosummary longtable docutils align-default">
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/cvpy.utils.CASThreadTuner.CASThreadTuner.html#cvpy.utils.CASThreadTuner.CASThreadTuner" title="cvpy.utils.CASThreadTuner.CASThreadTuner"><strong>CASThreadTuner</strong></a>()</p></td>
@@ -290,7 +290,7 @@
 </table>
 </section>
 <section id="cas-thread-tuner-results">
-<h3>CAS Thread Tuner Results<a class="headerlink" href="#cas-thread-tuner-results" title="Permalink to this heading">¶</a></h3>
+<h3>CAS Thread Tuner Results<a class="headerlink" href="#cas-thread-tuner-results" title="Link to this heading">¶</a></h3>
 <table class="autosummary longtable docutils align-default">
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/cvpy.base.CASThreadTunerResults.CASThreadTunerResults.html#cvpy.base.CASThreadTunerResults.CASThreadTunerResults" title="cvpy.base.CASThreadTunerResults.CASThreadTunerResults"><strong>CASThreadTunerResults</strong></a>([cas_server_mode, ...])</p></td>
@@ -303,7 +303,7 @@
 </table>
 </section>
 <section id="image-utilities">
-<h3>Image Utilities<a class="headerlink" href="#image-utilities" title="Permalink to this heading">¶</a></h3>
+<h3>Image Utilities<a class="headerlink" href="#image-utilities" title="Link to this heading">¶</a></h3>
 <table class="autosummary longtable docutils align-default">
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/cvpy.utils.ImageUtils.ImageUtils.html#cvpy.utils.ImageUtils.ImageUtils" title="cvpy.utils.ImageUtils.ImageUtils"><strong>ImageUtils</strong></a>()</p></td>
@@ -332,7 +332,7 @@
 </section>
 </section>
 <section id="visualization">
-<h2>Visualization<a class="headerlink" href="#visualization" title="Permalink to this heading">¶</a></h2>
+<h2>Visualization<a class="headerlink" href="#visualization" title="Link to this heading">¶</a></h2>
 <table class="autosummary longtable docutils align-default">
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/cvpy.visualization.display_image_slice.html#cvpy.visualization.display_image_slice" title="cvpy.visualization.display_image_slice"><strong>display_image_slice</strong></a>(images, dims, ress, ...)</p></td>

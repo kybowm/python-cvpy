@@ -18,6 +18,7 @@
       ~NaturalImageTable.from_table
       ~NaturalImageTable.has_decoded_images
       ~NaturalImageTable.load
+      ~NaturalImageTable.load_client_images
       ~NaturalImageTable.mask_image
       ~NaturalImageTable.validate_set_column
    

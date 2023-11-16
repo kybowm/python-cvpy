@@ -20,6 +20,7 @@
       ~BiomedImageTable.from_table
       ~BiomedImageTable.has_decoded_images
       ~BiomedImageTable.load
+      ~BiomedImageTable.load_client_images
       ~BiomedImageTable.morphological_gradient
       ~BiomedImageTable.sphericity
       ~BiomedImageTable.validate_set_column

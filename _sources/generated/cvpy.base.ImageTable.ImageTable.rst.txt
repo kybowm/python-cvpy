@@ -18,6 +18,7 @@
       ~ImageTable.from_table
       ~ImageTable.has_decoded_images
       ~ImageTable.load
+      ~ImageTable.load_client_images
       ~ImageTable.validate_set_column
    
    
